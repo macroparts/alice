@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('wall');
+});
+
+Route::get('/movies', function () {
+    return view('movies');
+});
+
+Route::get('/series', function () {
+    return view('series');
+});
+
+Route::get('/people', function () {
+    return view('people');
+});
+
+Route::get('/yourprofile', function () {
+    return view('profile');
 });
