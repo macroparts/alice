@@ -1,18 +1,14 @@
+// Colors
+$primary:                   #609AFA;
+$secondary:                 #F2CB0E;
+
+$gray-lightest:             #F7F8F9;
 
 // Body
-$body-bg: #f5f8fa;
+$body-bg:                   $gray-lightest;
 
 // Typography
-$font-family-sans-serif: "Raleway", sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
-$text-color: #636b6f;
-
-// Navbar
-$navbar-default-bg: #fff;
-
-// Buttons
-$btn-default-color: $text-color;
-
-// Panels
-$panel-default-heading-bg: #fff;
+$font-family-sans-serif:    'Roboto', sans-serif;
+$font-size-base:             13px;
+$font-size-lg:               18px;
+$font-size-sm:               11px;

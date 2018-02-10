@@ -1,0 +1,19 @@
+//Font Sizes
+.font-size-sm {
+    font-size: $font-size-sm;
+}
+
+.font-size-md {
+    font-size: $font-size-base;
+}
+
+.font-size-lg {
+    font-size: $font-size-lg;
+}
+
+//Spacer
+.line-spacer {
+    height: 2px;
+    width: 50px;
+    background-color: $primary;
+}
