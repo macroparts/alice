@@ -2,5 +2,4 @@
 /.vagrant
 phpunit.xml
 /after.sh
-/aliases
 /.idea
