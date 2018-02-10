@@ -10031,10 +10031,6 @@ a.text-dark:focus {
   border-bottom: 1px solid #EEEEEE;
 }
 
-body {
-  background-color: #F7F8F9;
-}
-
 .media-card {
   border: none;
   border-radius: 0;
@@ -10128,7 +10124,11 @@ body {
   height: 150px;
 }
 
-p {
+body {
+  background-color: #F7F8F9;
+}
+
+body p {
   font-size: 13px;
   margin-bottom: 0;
 }
