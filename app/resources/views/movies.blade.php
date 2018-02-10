@@ -1,8 +1,8 @@
 @extends('app')
 
 @section('content')
-
     <div class="container">
+        <h3 class="wrapper-title">Movies</h3>
         <div class="row">
             <div class="col-sm-6 col-lg-3 mb-4">
                 <div class="card media-card bg-dark text-white">

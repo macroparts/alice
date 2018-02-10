@@ -1,0 +1,34 @@
+body {
+    background-color: $gray-lightest;
+}
+
+.media-card {
+    border: none;
+    border-radius: 0;
+    transition: all ease 1s;
+    overflow: hidden;
+    cursor: pointer;
+    max-height: 370px;
+
+    &:hover {
+        .card-img {
+            filter: blur(2px)
+        }
+    }
+
+    .card-img-overlay {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2) 37%, rgba(0, 0, 0, 1) 86%, rgba(0, 0, 0, 1) 100%);
+        vertical-align: bottom;
+
+        .main-information {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -9999,6 +9999,12 @@ a.text-dark:focus {
   background-color: #fff;
 }
 
+.navbar .user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+}
+
 .font-size-sm {
   font-size: 11px;
 }
@@ -10017,6 +10023,14 @@ a.text-dark:focus {
   background-color: #609AFA;
 }
 
+.wrapper-title {
+  font-weight: 700;
+}
+
+body {
+  background-color: #F7F8F9;
+}
+
 .media-card {
   border: none;
   border-radius: 0;
@@ -10024,6 +10038,7 @@ a.text-dark:focus {
   transition: all ease 1s;
   overflow: hidden;
   cursor: pointer;
+  max-height: 370px;
 }
 
 .media-card:hover .card-img {
@@ -10046,5 +10061,20 @@ a.text-dark:focus {
 
 .media-card .card-img-overlay .main-information p {
   margin-bottom: 0;
+}
+
+.wall .profile-wrapper {
+  background-color: #fff;
+  height: 250px;
+}
+
+.wall .recent-feed {
+  background-color: #fff;
+  height: 400px;
+}
+
+.wall .impressum-wrapper {
+  background-color: #fff;
+  height: 150px;
 }
 
