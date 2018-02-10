@@ -10010,7 +10010,7 @@ a.text-dark:focus {
 }
 
 .font-size-md {
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 .font-size-lg {
@@ -10025,6 +10025,10 @@ a.text-dark:focus {
 
 .wrapper-title {
   font-weight: 700;
+}
+
+.section-diver {
+  border-bottom: 1px solid #EEEEEE;
 }
 
 body {
@@ -10049,7 +10053,6 @@ body {
 .media-card .card-img-overlay {
   background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(37%, rgba(0, 0, 0, 0.2)), color-stop(86%, black), to(black));
   background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.2) 37%, black 86%, black 100%);
-  vertical-align: bottom;
 }
 
 .media-card .card-img-overlay .main-information {
@@ -10061,6 +10064,53 @@ body {
 
 .media-card .card-img-overlay .main-information p {
   margin-bottom: 0;
+}
+
+.discussion-card {
+  max-height: 500px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.discussion-card .card-img {
+  background: url("http://de.web.img3.acsta.net/pictures/17/11/16/12/45/0662143.jpg");
+  height: 90px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.discussion-card .card-img .header-title {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.discussion-card .card-img-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.discussion-card .card-body .discussion-title {
+  font-size: 13px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.discussion-card .card-body .discussion-content {
+  margin-bottom: 0;
+}
+
+.discussion-card .card-body .svg-inline--fa {
+  color: #A0A0A0;
+  cursor: pointer;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.discussion-card .card-body .svg-inline--fa:hover {
+  color: #609AFA;
 }
 
 .wall .profile-wrapper {
@@ -10076,5 +10126,10 @@ body {
 .wall .impressum-wrapper {
   background-color: #fff;
   height: 150px;
+}
+
+p {
+  font-size: 13px;
+  margin-bottom: 0;
 }
 

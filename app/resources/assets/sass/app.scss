@@ -17,4 +17,11 @@
 @import "pages/series";
 @import "pages/wall";
 
+//Common Code
+
+p {
+    font-size: $font-size-md;
+    margin-bottom: 0;
+}
+
 
