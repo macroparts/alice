@@ -15,9 +15,7 @@ Route::get('/', function () {
     return view('wall');
 });
 
-Route::get('/movies', function () {
-    return view('movies');
-});
+Route::get('/movies', 'MovieController@index');
 
 Route::get('/series', function () {
     return view('series');
