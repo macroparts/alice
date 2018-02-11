@@ -10168,6 +10168,27 @@ a.text-dark:focus {
   background-color: transparent;
 }
 
+.filter {
+  margin-left: 25px;
+}
+
+.filter .btn-secondary {
+  border: 1px solid #E9E9E9;
+  background-color: transparent;
+  color: #609AFA;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: #609AFA;
+  color: #609AFA;
+}
+
+.btn-primary:hover {
+  border-color: #609AFA;
+  background-color: #609AFA;
+}
+
 .wall .profile-wrapper {
   background-color: #fff;
   height: 250px;

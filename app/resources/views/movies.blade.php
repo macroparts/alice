@@ -1,6 +1,17 @@
 @extends('app') @section('content')
     <div class="container">
         <h3 class="wrapper-title float-left">Movies</h3>
+        <div class="btn-group float-right filter">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Latest
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Popular</button>
+                <button class="dropdown-item" type="button">Recent Activities</button>
+                <button class="dropdown-item" type="button">Follower</button>
+                <button class="dropdown-item" type="button">Discussions</button>
+            </div>
+        </div>
         <div class="input-group float-right search">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-search"></i></span>

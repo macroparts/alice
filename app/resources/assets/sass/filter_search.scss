@@ -20,3 +20,13 @@
         background-color: transparent;
     }
 }
+
+.filter {
+    margin-left: 25px;
+
+    .btn-secondary {
+        border: 1px solid $border-color;
+        background-color: transparent;
+        color: $primary;
+    }
+}
