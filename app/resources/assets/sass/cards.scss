@@ -41,11 +41,18 @@
         background-position: center;
         position: relative;
 
-        .header-title {
-            color: $white;
-            margin-bottom: 0;
-            font-size: $font-size-lg;
-            line-height: 45px;
+        a {
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            .header-title {
+                color: $white;
+                margin-bottom: 0;
+                font-size: $font-size-lg;
+                line-height: 45px;
+            }
         }
     }
 

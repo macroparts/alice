@@ -10082,7 +10082,11 @@ a.text-dark:focus {
   position: relative;
 }
 
-.discussion-card .card-img .header-title {
+.discussion-card .card-img a:hover {
+  text-decoration: none;
+}
+
+.discussion-card .card-img a .header-title {
   color: #fff;
   margin-bottom: 0;
   font-size: 18px;
@@ -10245,6 +10249,91 @@ a.text-dark:focus {
 
 .wall .information-wrapper .impressum-wrapper .list-group .list-group-item a:hover {
   color: #609AFA;
+}
+
+.jumbotron-fluid {
+  background-color: transparent;
+  background-size: cover;
+  margin: -70px -15px 0 -15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.jumbotron-fluid .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjUwMDgzOTg3Nl5BMl5BanBnXkFtZTgwNTI4MDk5MzI@._V1_SY1000_CR0,0,669,1000_AL_.jpg") center;
+  background-size: cover;
+  -webkit-filter: blur(12px);
+          filter: blur(12px);
+  z-index: -2;
+}
+
+.jumbotron-fluid .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.jumbotron-fluid .media-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjUwMDgzOTg3Nl5BMl5BanBnXkFtZTgwNTI4MDk5MzI@._V1_SY1000_CR0,0,669,1000_AL_.jpg");
+  background-size: cover;
+  height: 350px;
+}
+
+.jumbotron-fluid .main-information {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.jumbotron-fluid .main-information .media-type {
+  color: #fff;
+  opacity: .8;
+}
+
+.jumbotron-fluid .main-information .media-title {
+  color: #fff;
+  font-size: 70px;
+}
+
+.jumbotron-fluid .main-information .media-description {
+  color: #fff;
+}
+
+.jumbotron-fluid .main-information .cta-wrapper .voting {
+  color: #fff;
+}
+
+.jumbotron-fluid .main-information .cta-wrapper .voting .svg-inline--fa {
+  cursor: pointer;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.jumbotron-fluid .main-information .cta-wrapper .voting .svg-inline--fa:hover {
+  color: #609AFA;
+}
+
+.jumbotron-fluid .side-information {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.jumbotron-fluid .side-information .side-element p {
+  color: #fff;
 }
 
 body {

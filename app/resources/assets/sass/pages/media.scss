@@ -1,0 +1,83 @@
+.jumbotron-fluid {
+    background-color: transparent;
+    background-size: cover;
+    margin: -70px -15px 0 -15px;
+    position: relative;
+    overflow: hidden;
+
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: scale(1.2);
+        background: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjUwMDgzOTg3Nl5BMl5BanBnXkFtZTgwNTI4MDk5MzI@._V1_SY1000_CR0,0,669,1000_AL_.jpg") center;
+        background-size: cover;
+        filter: blur(12px);
+        z-index: -2;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .4);
+        z-index: -1;
+    }
+
+    .media-img {
+        background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjUwMDgzOTg3Nl5BMl5BanBnXkFtZTgwNTI4MDk5MzI@._V1_SY1000_CR0,0,669,1000_AL_.jpg");
+        background-size: cover;
+        height: 350px;
+    }
+
+    .main-information {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .media-type {
+            color: $white;
+            opacity: .8;
+        }
+
+        .media-title {
+            color: $white;
+            font-size: 70px;
+        }
+
+        .media-description {
+            color: $white;
+        }
+
+        .cta-wrapper {
+            .voting {
+                color: $white;
+
+                .svg-inline--fa {
+                    cursor: pointer;
+                    transition: all ease .5s;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .side-information {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .side-element {
+            p {
+                color: $white;
+            }
+        }
+    }
+}
