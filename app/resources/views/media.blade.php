@@ -59,4 +59,77 @@
         </div>
     </div>
 
+    <div class="container media-wall mt-5">
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block">
+                <div class="navigation-wrapper p-3">
+                    <ul class="list-group discussion">
+                        <li class="list-group-item mb-3"><a class="font-weight-bold">Discussions</a></li>
+                        <li class="list-group-item sub-item pl-3 mb-3"><a class="font-size-sm">All</a></li>
+                        <li class="list-group-item sub-item pl-3 mb-3"><a class="font-size-sm">Popular</a></li>
+                        <li class="list-group-item sub-item pl-3 mb-3"><a class="font-size-sm">Latest</a></li>
+                        <li class="list-group-item sub-item pl-3 mb-3"><a class="font-size-sm">From Friends</a></li>
+                    </ul>
+                    <ul class="list-group storyline pt-3">
+                        <li class="list-group-item"><a class="font-weight-bold">Storyline</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="wall-wrapper">
+                    @include('cards.discussion_media')
+                </div>
+            </div>
+            <div class="col-md-3 d-none d-md-block">
+                <div class="information-wrapper">
+                    <div class="friends-feed mb-4 p-3">
+                        <p class="font-weight-bold">People</p>
+                        <div class="row mt-3">
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                            <div class="col-3">
+                                <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img mb-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impressum-wrapper p-3">
+                        <ul class="list-group">
+                            <li class="list-group-item mb-3"><a href="{{ url('/') }}">© 2018 Alice</a></li>
+                            <li class="list-group-item mb-3"><a href="{{ url('/impressum') }}">Impressum</a></li>
+                            <li class="list-group-item"><a href="{{ url('/about') }}">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 @endsection
+

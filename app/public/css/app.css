@@ -10033,7 +10033,7 @@ a.text-dark:focus {
 }
 
 .section-diver {
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #E9E9E9;
 }
 
 .media-card {
@@ -10259,6 +10259,14 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
+.jumbotron-fluid.hide-jumbotron {
+  display: none;
+}
+
+.jumbotron-fluid.show-jumbotron {
+  display: block;
+}
+
 .jumbotron-fluid .bg {
   position: absolute;
   top: 0;
@@ -10334,6 +10342,87 @@ a.text-dark:focus {
 
 .jumbotron-fluid .side-information .side-element p {
   color: #fff;
+}
+
+.media-wall .navigation-wrapper {
+  background-color: #fff;
+  border: 1px solid #E9E9E9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+}
+
+.media-wall .navigation-wrapper .list-group {
+  padding: 0;
+}
+
+.media-wall .navigation-wrapper .list-group .list-group-item {
+  padding: 0;
+  border: none;
+}
+
+.media-wall .navigation-wrapper .list-group .list-group-item a {
+  color: #212121;
+  cursor: pointer;
+}
+
+.media-wall .navigation-wrapper .list-group .list-group-item a:hover {
+  color: #609AFA;
+}
+
+.media-wall .navigation-wrapper .list-group .list-group-item.sub-item a {
+  color: #212121;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.media-wall .navigation-wrapper .list-group .list-group-item.sub-item a:hover {
+  color: #609AFA;
+}
+
+.media-wall .navigation-wrapper .list-group.storyline {
+  border-top: 1px solid #E9E9E9;
+}
+
+.media-wall .information-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+}
+
+.media-wall .information-wrapper .friends-feed {
+  background-color: #fff;
+  border: 1px solid #E9E9E9;
+}
+
+.media-wall .information-wrapper .friends-feed .user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+}
+
+.media-wall .information-wrapper .impressum-wrapper {
+  border: 1px solid #E9E9E9;
+  background-color: #fff;
+}
+
+.media-wall .information-wrapper .impressum-wrapper .list-group {
+  padding: 0;
+}
+
+.media-wall .information-wrapper .impressum-wrapper .list-group .list-group-item {
+  padding: 0;
+  border: none;
+}
+
+.media-wall .information-wrapper .impressum-wrapper .list-group .list-group-item a {
+  color: #212121;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.media-wall .information-wrapper .impressum-wrapper .list-group .list-group-item a:hover {
+  color: #609AFA;
 }
 
 body {

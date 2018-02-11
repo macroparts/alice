@@ -5,6 +5,14 @@
     position: relative;
     overflow: hidden;
 
+    &.hide-jumbotron {
+        display: none;
+    }
+
+    &.show-jumbotron {
+        display: block;
+    }
+
     .bg {
         position: absolute;
         top: 0;
@@ -79,5 +87,93 @@
                 color: $white;
             }
         }
+    }
+}
+
+.media-wall {
+    .navigation-wrapper {
+        background-color: $white;
+        border: 1px solid $border-color;
+        position: sticky;
+        top: 150px;
+
+        .list-group {
+            padding: 0;
+
+            .list-group-item {
+                padding: 0;
+                border: none;
+
+                a {
+                    color: $black;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+
+                &.sub-item {
+
+                    a {
+                        color: $black;
+                        font-size: $font-size-sm;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+
+            &.storyline {
+                border-top: 1px solid $border-color;
+            }
+        }
+    }
+
+    .information-wrapper {
+        position: sticky;
+        top: 150px;
+
+        .friends-feed {
+            background-color: $white;
+            border: 1px solid $border-color;
+
+            .user-img {
+                width: 40px;
+                height: 40px;
+                border-radius: 80px;
+            }
+        }
+
+        .impressum-wrapper {
+            border: 1px solid $border-color;
+            background-color: $white;
+
+            .list-group {
+                padding: 0;
+
+                .list-group-item {
+                    padding: 0;
+                    border: none;
+
+                    a {
+                        color: $black;
+                        font-size: $font-size-sm;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wall-wrapper {
+
     }
 }
