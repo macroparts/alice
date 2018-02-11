@@ -4,7 +4,7 @@
         <div class="input-group float-right search">
             <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control">
             </div>
         </div>
         <div class="clearfix"></div>

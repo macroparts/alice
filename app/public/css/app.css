@@ -10145,30 +10145,27 @@ a.text-dark:focus {
 }
 
 .search {
-  width: auto;
   background-color: #fff;
   border-radius: 100px;
+  border: 1px solid #E9E9E9;
+  height: 35px;
+  width: 150px;
 }
 
-.search input[type=text] {
-  width: 80px;
+.search .form-control {
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   border: none;
-  border-radius: 100px;
-}
-
-.search input[type=text]:focus {
-  width: 200px;
+  background-color: transparent;
 }
 
 .search .input-group-text {
-  border-radius: 100px;
   border: none;
   padding-right: 0;
-  background-color: #fff;
+  color: #609AFA;
+  background-color: transparent;
 }
 
 .wall .profile-wrapper {

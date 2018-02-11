@@ -1,26 +1,22 @@
 .search {
-    width: auto;
     background-color: $white;
     border-radius: 100px;
+    border: 1px solid $border-color;
+    height: 35px;
+    width: 150px;
 
-    input[type=text] {
-        width: 80px;
+    .form-control {
         box-shadow: none;
         -webkit-transition: width 0.4s ease-in-out;
         transition: width 0.4s ease-in-out;
         border: none;
-        border-radius: 100px;
-    }
-
-    input[type=text]:focus {
-        width: 200px;
-
+        background-color: transparent;
     }
 
     .input-group-text {
-        border-radius: 100px;
         border: none;
         padding-right: 0;
-        background-color: $white;
+        color: $primary;
+        background-color: transparent;
     }
 }
