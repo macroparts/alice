@@ -33,6 +33,7 @@
     background-color: $white;
     border: none;
     border-radius: 0;
+    cursor: pointer;
 
     .card-img {
         background: url("http://de.web.img3.acsta.net/pictures/17/11/16/12/45/0662143.jpg");
@@ -54,16 +55,6 @@
     }
 
     .card-body {
-        .discussion-title {
-            font-size: $font-size-md;
-            margin-bottom: 0;
-            font-weight: $font-weight-bold;
-        }
-
-        .discussion-content {
-            margin-bottom: 0;
-        }
-
         .svg-inline--fa {
             color: $gray;
             cursor: pointer;

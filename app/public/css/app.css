@@ -10005,6 +10005,10 @@ a.text-dark:focus {
   border-radius: 80px;
 }
 
+.navbar .navbar-nav .nav-item.active .nav-link {
+  color: #609AFA;
+}
+
 .font-size-sm {
   font-size: 11px;
 }
@@ -10067,6 +10071,7 @@ a.text-dark:focus {
   background-color: #fff;
   border: none;
   border-radius: 0;
+  cursor: pointer;
 }
 
 .discussion-card .card-img {
@@ -10088,16 +10093,6 @@ a.text-dark:focus {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.discussion-card .card-body .discussion-title {
-  font-size: 13px;
-  margin-bottom: 0;
-  font-weight: 700;
-}
-
-.discussion-card .card-body .discussion-content {
-  margin-bottom: 0;
-}
-
 .discussion-card .card-body .svg-inline--fa {
   color: #A0A0A0;
   cursor: pointer;
@@ -10106,6 +10101,46 @@ a.text-dark:focus {
 }
 
 .discussion-card .card-body .svg-inline--fa:hover {
+  color: #609AFA;
+}
+
+.discussion-modal .modal-header {
+  padding: 0;
+}
+
+.discussion-modal .modal-header .card-img {
+  background: url("http://de.web.img3.acsta.net/pictures/17/11/16/12/45/0662143.jpg");
+  height: 90px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.discussion-modal .modal-header .card-img .header-title {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.discussion-modal .modal-header .card-img-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.discussion-modal .modal-header .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.discussion-modal .modal-body .svg-inline--fa {
+  color: #A0A0A0;
+  cursor: pointer;
+  -webkit-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.discussion-modal .modal-body .svg-inline--fa:hover {
   color: #609AFA;
 }
 
@@ -10126,6 +10161,7 @@ a.text-dark:focus {
 
 body {
   background-color: #F7F8F9;
+  font-family: "Roboto", sans-serif;
 }
 
 body p {

@@ -1,0 +1,42 @@
+.discussion-modal {
+    .modal-header {
+        padding: 0;
+        .card-img {
+            background: url("http://de.web.img3.acsta.net/pictures/17/11/16/12/45/0662143.jpg");
+            height: 90px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+            .header-title {
+                color: $white;
+                margin-bottom: 0;
+                font-size: $font-size-lg;
+                line-height: 45px;
+            }
+        }
+
+        .card-img-overlay {
+            background: rgba(0, 0, 0, .6);
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+    }
+
+    .modal-body {
+
+        .svg-inline--fa {
+            color: $gray;
+            cursor: pointer;
+            transition: all ease .5s;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
