@@ -1,5 +1,5 @@
 .media-card {
-    border: none;
+    border: 1px solid $border-color;
     border-radius: 0;
     transition: all ease 1s;
     overflow: hidden;
@@ -22,7 +22,7 @@
             right: 0;
 
             p {
-                margin-bottom: 0;
+                color: $white;
             }
         }
     }
@@ -31,9 +31,8 @@
 .discussion-card {
     max-height: 500px;
     background-color: $white;
-    border: none;
+    border: 1px solid $border-color;
     border-radius: 0;
-    cursor: pointer;
 
     .card-img {
         background: url("http://de.web.img3.acsta.net/pictures/17/11/16/12/45/0662143.jpg");
@@ -50,8 +49,12 @@
         }
     }
 
+    .modal-link {
+        cursor: pointer;
+    }
+
     .card-img-overlay {
-        background: rgba(0,0,0,.6);
+        background: rgba(0, 0, 0, .6);
     }
 
     .card-body {

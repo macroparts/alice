@@ -25,6 +25,18 @@ Route::get('/people', function () {
     return view('people');
 });
 
+Route::get('/media', function () {
+    return view('media');
+});
+
 Route::get('/yourprofile', function () {
     return view('profile');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/impressum', function () {
+    return view('impressum');
 });

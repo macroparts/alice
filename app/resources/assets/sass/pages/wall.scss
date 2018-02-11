@@ -1,17 +1,54 @@
 .wall {
     .profile-wrapper {
         background-color: $white;
-        height: 250px;
+        border: 1px solid $border-color;
+        position: sticky;
+        top: 150px;
+
+        .user-img-wall {
+            width: 90px;
+            height: 90px;
+            border-radius: 180px;
+        }
+
+        .left-information {
+            border-right: 1px solid $border-color;
+        }
     }
 
-    .recent-feed {
-        background-color: $white;
-        height: 400px;
-    }
+    .information-wrapper {
+        position: sticky;
+        top: 150px;
 
-    .impressum-wrapper {
-        background-color: $white;
-        height: 150px;
+        .recent-feed {
+            background-color: $white;
+            border: 1px solid $border-color;
+            height: 400px;
+        }
+
+        .impressum-wrapper {
+            border: 1px solid $border-color;
+            background-color: $white;
+
+            .list-group {
+                padding: 0;
+
+                .list-group-item {
+                    padding: 0;
+                    border: none;
+
+                    a {
+                        color: $black;
+                        font-size: $font-size-sm;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .wall-wrapper {

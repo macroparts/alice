@@ -21,16 +21,18 @@
 @import "pages/wall";
 
 //Common Code
-
 body {
     background-color: $gray-lightest;
     font-family: $font-family-sans-serif;
+    padding-top: 150px;
 
     p {
         font-size: $font-size-md;
         margin-bottom: 0;
+        color: $black;
     }
 }
+
 
 
 

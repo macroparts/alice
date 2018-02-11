@@ -9997,6 +9997,7 @@ a.text-dark:focus {
 .navbar {
   height: 80px;
   background-color: #fff;
+  border-bottom: 1px solid #E9E9E9;
 }
 
 .navbar .user-img {
@@ -10010,7 +10011,7 @@ a.text-dark:focus {
 }
 
 .font-size-sm {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .font-size-md {
@@ -10036,7 +10037,7 @@ a.text-dark:focus {
 }
 
 .media-card {
-  border: none;
+  border: 1px solid #E9E9E9;
   border-radius: 0;
   -webkit-transition: all ease 1s;
   transition: all ease 1s;
@@ -10063,15 +10064,14 @@ a.text-dark:focus {
 }
 
 .media-card .card-img-overlay .main-information p {
-  margin-bottom: 0;
+  color: #fff;
 }
 
 .discussion-card {
   max-height: 500px;
   background-color: #fff;
-  border: none;
+  border: 1px solid #E9E9E9;
   border-radius: 0;
-  cursor: pointer;
 }
 
 .discussion-card .card-img {
@@ -10087,6 +10087,10 @@ a.text-dark:focus {
   margin-bottom: 0;
   font-size: 18px;
   line-height: 45px;
+}
+
+.discussion-card .modal-link {
+  cursor: pointer;
 }
 
 .discussion-card .card-img-overlay {
@@ -10191,26 +10195,67 @@ a.text-dark:focus {
 
 .wall .profile-wrapper {
   background-color: #fff;
-  height: 250px;
+  border: 1px solid #E9E9E9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
 }
 
-.wall .recent-feed {
+.wall .profile-wrapper .user-img-wall {
+  width: 90px;
+  height: 90px;
+  border-radius: 180px;
+}
+
+.wall .profile-wrapper .left-information {
+  border-right: 1px solid #E9E9E9;
+}
+
+.wall .information-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+}
+
+.wall .information-wrapper .recent-feed {
   background-color: #fff;
+  border: 1px solid #E9E9E9;
   height: 400px;
 }
 
-.wall .impressum-wrapper {
+.wall .information-wrapper .impressum-wrapper {
+  border: 1px solid #E9E9E9;
   background-color: #fff;
-  height: 150px;
+}
+
+.wall .information-wrapper .impressum-wrapper .list-group {
+  padding: 0;
+}
+
+.wall .information-wrapper .impressum-wrapper .list-group .list-group-item {
+  padding: 0;
+  border: none;
+}
+
+.wall .information-wrapper .impressum-wrapper .list-group .list-group-item a {
+  color: #212121;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.wall .information-wrapper .impressum-wrapper .list-group .list-group-item a:hover {
+  color: #609AFA;
 }
 
 body {
   background-color: #F7F8F9;
   font-family: "Roboto", sans-serif;
+  padding-top: 150px;
 }
 
 body p {
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 0;
+  color: #212121;
 }
 

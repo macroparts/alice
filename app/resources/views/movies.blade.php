@@ -31,12 +31,12 @@
                                 <div class="line-spacer mt-3 mb-3"></div>
                                 <div class="row">
                                     <div class="col-6 text-left">
-                                        <p class="font-weight-bold font-size-sm">Discussions</p>
-                                        <p class="font-size-sm">{{ $movie->discussions_count }}</p>
+                                        <p class="mb-0">Discussions</p>
+                                        <p class="mb-0">{{ $movie->discussions_count }}</p>
                                     </div>
                                     <div class="col-6 text-right">
-                                        <p class="font-weight-bold font-size-sm">Followers</p>
-                                        <p class="font-size-sm">{{ $movie->followers_count }}</p>
+                                        <p class="mb-0">Followers</p>
+                                        <p class="mb-0">{{ $movie->followers_count }}</p>
                                     </div>
                                 </div>
                             </div>
