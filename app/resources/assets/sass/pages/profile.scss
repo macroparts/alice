@@ -1,61 +1,36 @@
-.profile-header {
-    background-color: $white;
-    border: 1px solid $border-color;
+.profile-overview {
+    position: sticky;
+    top: 150px;
 
-    .user-information {
+    .user-img-profile {
+        width: 100%;
+        border-radius: 100%;
+    }
+
+    .name-wrapper {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
 
-        .user-name {
-            font-size: 25px;
+        .user-name, .user-welcome {
+            font-size: 20px;
         }
+    }
+}
 
-        .fa-user-plus {
-            color: $gray;
-            cursor: pointer;
+.profile-nav {
+    position: sticky;
+    top: 150px;
 
-            &:hover {
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+
+        a {
+            &.active-link {
                 color: $primary;
             }
         }
     }
-
-    .user-img-profile {
-        width: inherit;
-        border-radius: 100%;
-    }
-
-    .user-activities {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
 }
-
-.user-nav {
-    background-color: $white;
-    border: 1px solid $border-color;
-    position: sticky;
-    top: 150px;
-
-    .nav {
-        .nav-item {
-            border-right: 1px solid $border-color;
-
-            &:last-child {
-                border-right: none;
-            }
-
-            .nav-link {
-                padding: 0;
-                color: $black;
-
-                &.active-link {
-                    color: $primary;
-                }
-            }
-        }
-    }
-}
-

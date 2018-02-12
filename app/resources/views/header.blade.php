@@ -25,7 +25,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/yourprofile') }}">
-                        <img src="http://dreamicus.com/data/face/face-04.jpg" class="user-img">
+                        <img src="https://s3.amazonaws.com/37assets/svn/1024-original.1e9af38097008ef9573f03b03ef6f363219532f9.jpg" class="user-img">
                     </a>
                 </li>
             </ul>
