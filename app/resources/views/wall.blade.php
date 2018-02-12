@@ -12,12 +12,12 @@
                     <div class="activities mt-3">
                         <div class="row">
                             <div class="col-6 left-information">
-                                <p class="user-name font-weight-bold">253</p>
-                                <p class="user-location">Follower</p>
+                                <p class="font-weight-bold">253</p>
+                                <p>Friends</p>
                             </div>
                             <div class="col-6 right-information">
-                                <p class="user-name font-weight-bold">535</p>
-                                <p class="user-location">Seen</p>
+                                <p class="font-weight-bold">535</p>
+                                <p>Seen</p>
                             </div>
                         </div>
                     </div>
