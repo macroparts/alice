@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);/*!
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);/*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10007,7 +10007,7 @@ a.text-dark:focus {
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .font-size-sm {
@@ -10025,7 +10025,7 @@ a.text-dark:focus {
 .line-spacer {
   height: 2px;
   width: 50px;
-  background-color: #609AFA;
+  background-color: #544FFF;
 }
 
 .wrapper-title {
@@ -10109,7 +10109,7 @@ a.text-dark:focus {
 }
 
 .discussion-card .card-body .svg-inline--fa:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .discussion-modal .modal-header {
@@ -10149,7 +10149,7 @@ a.text-dark:focus {
 }
 
 .discussion-modal .modal-body .svg-inline--fa:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .search {
@@ -10172,7 +10172,7 @@ a.text-dark:focus {
 .search .input-group-text {
   border: none;
   padding-right: 0;
-  color: #609AFA;
+  color: #544FFF;
   background-color: transparent;
 }
 
@@ -10183,18 +10183,18 @@ a.text-dark:focus {
 .filter .btn-secondary {
   border: 1px solid #E9E9E9;
   background-color: transparent;
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .btn-primary {
   background-color: transparent;
-  border-color: #609AFA;
-  color: #609AFA;
+  border-color: #544FFF;
+  color: #544FFF;
 }
 
 .btn-primary:hover {
-  border-color: #609AFA;
-  background-color: #609AFA;
+  border-color: #544FFF;
+  background-color: #544FFF;
 }
 
 .wall .profile-wrapper {
@@ -10248,7 +10248,7 @@ a.text-dark:focus {
 }
 
 .wall .information-wrapper .impressum-wrapper .list-group .list-group-item a:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .jumbotron-fluid {
@@ -10330,7 +10330,7 @@ a.text-dark:focus {
 }
 
 .jumbotron-fluid .main-information .cta-wrapper .voting .svg-inline--fa:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .jumbotron-fluid .side-information {
@@ -10367,7 +10367,7 @@ a.text-dark:focus {
 }
 
 .media-wall .navigation-wrapper .list-group .list-group-item a:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .media-wall .navigation-wrapper .list-group .list-group-item.sub-item a {
@@ -10377,7 +10377,7 @@ a.text-dark:focus {
 }
 
 .media-wall .navigation-wrapper .list-group .list-group-item.sub-item a:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .media-wall .navigation-wrapper .list-group.storyline {
@@ -10422,7 +10422,7 @@ a.text-dark:focus {
 }
 
 .media-wall .information-wrapper .impressum-wrapper .list-group .list-group-item a:hover {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 .profile-overview {
@@ -10461,12 +10461,12 @@ a.text-dark:focus {
 }
 
 .profile-nav .list-group-item a.active-link {
-  color: #609AFA;
+  color: #544FFF;
 }
 
 body {
   background-color: #F7F8F9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   padding-top: 150px;
 }
 
