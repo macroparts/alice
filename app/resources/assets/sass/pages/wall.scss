@@ -1,18 +1,22 @@
 .wall {
     .profile-wrapper {
-        background-color: $white;
-        border: 1px solid $border-color;
         position: sticky;
         top: 150px;
 
-        .user-img-wall {
-            width: 90px;
-            height: 90px;
-            border-radius: 180px;
-        }
+        .profile-welcome {
+            background-color: $white;
+            border: 1px solid $border-color;
 
-        .left-information {
-            border-right: 1px solid $border-color;
+            .user-img-profile {
+                width: 100%;
+                border-radius: 100%;
+            }
+
+            .name-wrapper {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
         }
     }
 

@@ -10036,6 +10036,18 @@ a.text-dark:focus {
   border-bottom: 1px solid #E9E9E9;
 }
 
+.gray {
+  color: #A0A0A0;
+}
+
+.primary {
+  color: #544FFF;
+}
+
+.secondary {
+  color: #5EFC8D;
+}
+
 .media-card {
   border: 1px solid #E9E9E9;
   border-radius: 0;
@@ -10198,21 +10210,26 @@ a.text-dark:focus {
 }
 
 .wall .profile-wrapper {
-  background-color: #fff;
-  border: 1px solid #E9E9E9;
   position: -webkit-sticky;
   position: sticky;
   top: 150px;
 }
 
-.wall .profile-wrapper .user-img-wall {
-  width: 90px;
-  height: 90px;
-  border-radius: 180px;
+.wall .profile-wrapper .profile-welcome {
+  background-color: #fff;
+  border: 1px solid #E9E9E9;
 }
 
-.wall .profile-wrapper .left-information {
-  border-right: 1px solid #E9E9E9;
+.wall .profile-wrapper .profile-welcome .user-img-profile {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.wall .profile-wrapper .profile-welcome .name-wrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .wall .information-wrapper {
@@ -10464,6 +10481,38 @@ a.text-dark:focus {
   color: #544FFF;
 }
 
+.user-card {
+  background-color: #fff;
+  border: 1px solid #E9E9E9;
+  border-radius: 0;
+}
+
+.user-card .user-img-top {
+  height: 200px;
+  width: 100%;
+  background: url("https://static.pexels.com/photos/614810/pexels-photo-614810.jpeg") center;
+  background-size: cover;
+}
+
+.user-card .add-wrapper {
+  background-color: #5EFC8D;
+  padding: 12px;
+  border-radius: 100px;
+  position: absolute;
+  right: 15px;
+  top: 175px;
+  cursor: pointer;
+}
+
+.user-card .add-wrapper .fa-user-plus {
+  position: relative;
+  top: -2px;
+}
+
+.user-card .card-body .user-name {
+  font-size: 20px;
+}
+
 body {
   background-color: #F7F8F9;
   font-family: "Lato", sans-serif;
@@ -10474,5 +10523,9 @@ body p {
   font-size: 14px;
   margin-bottom: 0;
   color: #212121;
+}
+
+body a:hover {
+  text-decoration: none;
 }
 

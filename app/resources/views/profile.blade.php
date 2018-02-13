@@ -25,9 +25,6 @@
                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
                         dolores et ea rebum. Stet clita kasd gubergren.</p>
                     <div class="section-diver mb-4 mt-4"></div>
-                    <p class="font-weight-bold">Location</p>
-                    <p>London, GB</p>
-                    <div class="section-diver mb-4 mt-4"></div>
                     <div class="user-activities">
                         <div class="row">
                             <div class="col-4">
@@ -44,6 +41,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="section-diver mb-4 mt-4"></div>
+                    <p class="font-weight-bold">Location</p>
+                    <p>London, GB</p>
                 </div>
             </div>
             <div class="col-md-2">

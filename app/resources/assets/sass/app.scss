@@ -21,6 +21,7 @@
 @import "pages/wall";
 @import "pages/media";
 @import "pages/profile";
+@import "pages/people";
 
 //Common Code
 body {
@@ -32,6 +33,10 @@ body {
         font-size: $font-size-md;
         margin-bottom: 0;
         color: $black;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 }
 
