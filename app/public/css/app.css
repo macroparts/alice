@@ -10488,7 +10488,7 @@ a.text-dark:focus {
 }
 
 .user-card .user-img-top {
-  height: 200px;
+  height: 120px;
   width: 100%;
   background: url("https://static.pexels.com/photos/614810/pexels-photo-614810.jpeg") center;
   background-size: cover;
@@ -10500,7 +10500,7 @@ a.text-dark:focus {
   border-radius: 100px;
   position: absolute;
   right: 15px;
-  top: 175px;
+  top: 100px;
   cursor: pointer;
 }
 
